@@ -8,7 +8,24 @@
   "rules": {
     "semi": "off",
     "arrow-parens": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "linebreak-style": 0,
+    "require-jsdoc": "off",
+    "no-trailing-spaces": "off",
+    "quotes": "off",
+    "indent": "off",
+    "eol-last": "off",
+    "no-unused-vars": "off",
+    "keyword-spacing": "off",
+    "spaced-comment": "off",
+    "operator-linebreak": "off",
+    "padded-blocks": "off"
+
+   /* "FunctionDeclaration": true,
+    "MethodDefinition": false,
+    "ClassDeclaration": false,
+    "ArrowFunctionExpression": false,
+    "FunctionExpression": false*/
   },
   "extends": ["eslint:recommended", "google"]
 }
